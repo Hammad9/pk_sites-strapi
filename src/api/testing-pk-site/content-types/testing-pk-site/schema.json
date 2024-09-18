@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testing_pk_sites",
+  "info": {
+    "singularName": "testing-pk-site",
+    "pluralName": "testing-pk-sites",
+    "displayName": "Testing_PK_Site"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "PhoneNumber": {
+      "type": "biginteger"
+    }
+  }
+}
